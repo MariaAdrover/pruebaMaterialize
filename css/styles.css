@@ -1,0 +1,66 @@
+.nav-wrapper {
+    background-color: #ec008c;
+}
+
+.nav-wrapper ul li a {
+    color: white;
+}
+
+#dropdown1 {
+    background-color: black;
+}
+
+#telf {
+    background-color: #ec008c;
+    display:block;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    margin:0;
+    z-index:100;
+}
+.sidenav-overlay {
+    z-index:0;
+}
+.datepicker-date-display {
+    background-color: red;
+}
+.timepicker-digital-display {
+    background-color: red;
+}
+.parallax-container {
+    height: 350px;
+}
+
+#main {
+    height: 600px;
+}
+
+#foot {
+    height: 280px;
+}
+
+.man {
+    left: 350%;
+    position: relative;
+}
+
+.section {
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+}
+
+.nav ul a {
+color: black}
+
+@media screen and (max-width: 670px) {
+    .parallax-container {
+        height: 250px;
+    }
+
+    .section {
+        padding-top: 6vw;
+        padding-bottom: 4vw;
+    }
+}

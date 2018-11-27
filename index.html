@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do de Pit</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
+
+    <!--CSS file-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Materialize javascript -->
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img class="sidenav-trigger" src="img/logoSquare.png" /></a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <!-- hide-on-small-only -->
+                        <li class="active"><a href="#">Do de Pit</a></li>
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Para comer<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#">Para beber</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Horario</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                    <!--Mobile menu-->
+                    <ul class="sidenav black" id="mobile-menu">
+                        <li class="active"><a href="#">Do de Pit</a></li>
+                        <li><a href="#">Para comer</a></li>
+                        <li><a href="#">Para beber</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Horario</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Dropdown menu-->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Carta</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Menu</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Parallax Materialize -->
+    <div id="main" class="parallax-container col s6 m6 l6">
+        <div class="parallax"><img src="img/5.jpg"></div>
+    </div>
+    <!-- Parallax Materialize -->
+
+
+    <section class="container section" id="photo">
+        <div class="row card-panel">
+            <h5 class="blue-text">Reserva</h5>
+            <p class="blue-text">Fecha de reserva</p>
+            <input type="text" class="datepicker">
+            <p class="blue-text">Hora de reserva AM/PM</p>
+            <input type="text" id="timepicker1">
+            <p class="blue-text">Hora de reserva 24h</p>
+            <input type="text" id="timepicker2">
+        </div>
+        <div class="row card-panel">
+            <h5 class="blue-text">Pulse/Color/Toast</h5>
+        </div>
+
+        <div class="row card-panel">
+            <a href="mailto:siampalace@food.net" class="btn white black-text right">CORREO</a>
+        </div>
+
+
+        <!-- Parallax Materialize -->
+        <div class="parallax-container col s6 m6 l6">
+            <div class="parallax"><img src="img/7.jpg"></div>
+        </div>
+
+        <div class="row card-panel">
+            <h5>Shadows</h5>
+        </div>
+
+        <!-- Parallax Materialize -->
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <div class="parallax-container">
+                    <div class="parallax"><img src="img/5.jpg"></div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div class="parallax-container">
+                    <div class="parallax"><img src="img/plato2.jpg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row  card-panel">
+            <h5>Another nice thing: Parallax</h5>
+            <p> It is an effect on web pages where objects and backgrounds move in such a way that they offer an effect
+                similar to 3D.</p>
+            <p> It is achieved through the creation of different layers at different distances and different positions
+                and we observe the movement when we make scroll.</p>
+            <a href="https://www.numero10.ch/fr/home/">numero10</a>
+            <p></p>
+            <a href="http://lostworldsfairs.com/atlantis/">Atlantis</a>
+        </div>
+        <!--Explain push pull in index.html-->
+    </section>
+
+    <!-- Parallax Materialize -->
+    <div id="foot" class="parallax-container col s6 m6 l6">
+        <div class="parallax"><img src="img/3.jpg"></div>
+    </div>
+    <!-- Parallax Materialize -->
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <h5>About me</h5>
+                    <p>ajhdahfnh h uhuiandu hh nh bcadahn fhhdf fwcdqwxaxasf uinh nhiauckanxn</p>
+                    <p>ajhdahfnh h uhuiandu hh nh bcadahn fhh uinh nhiauckanxn</p>
+                </div>
+                <div class="col s1 m1 l1 offset-m2 offset-l2">
+                    <!--Explain offset-->
+                    <h5>Share</h5>
+                    <p><a class="btn-floating white"><img src="img/facebook.png" alt="" class="responsive-img"></a></p>
+                    <p><a class="btn-floating white"><img src="img/twitter.png" alt="" class="responsive-img"></a></p>
+                    <p><a class="btn-floating white"><img src="img/instagram.png" alt="" class="responsive-img"></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2018 SuperPhoto</div>
+        </div>
+    </footer>
+    <div id="telf" class="row">
+        <div class="col s12 m5 l5 xl5">
+            <i class="small material-icons">local_phone</i>
+            <a href="tel:630037625" class="white-text">Llámanos: 555666777</a>
+        </div>
+        <div class="col s12 m7 l7 xl7">
+            <i class="small material-icons">location_on</i>
+            <a class="white-text" href="https://www.google.es/maps/place/Pla%C3%A7a+d'Am%C3%A8rica,+07100+S%C3%B3ller,+Illes+Balears/@39.7684658,2.7097066,17.28z/data=!4m13!1m7!3m6!1s0x1297e8b90df488b5:0xdfa7a37c175ac21d!2sPla%C3%A7a+d'Am%C3%A8rica,+07100+S%C3%B3ller,+Illes+Balears!3b1!8m2!3d39.7683084!4d2.7114072!3m4!1s0x1297e8b90df488b5:0xdfa7a37c175ac21d!8m2!3d39.7683084!4d2.7114072">
+                Plaza América, Sóller (Islas Baleares, España)</a>
+        </div>
+    </div>
+
+    <!--jquery
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script> -->
+    <!--Parallax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown();
+            $(".materialboxed").materialbox();
+
+            /*----------Parallax Materialize----------*/
+            $('.parallax').parallax();
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.parallax');
+                var instances = M.Parallax.init(elems, { responsiveThreshold: 40 });
+            });
+            /*----------Parallax Materialize----------*/
+        });
+    </script>
+</body>
+
+</html>

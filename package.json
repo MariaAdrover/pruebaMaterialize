@@ -1,0 +1,27 @@
+{
+  "name": "@mariaav/materialize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaAdrover/pruebaMaterialize.git"
+  },
+  "author": "mia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaAdrover/pruebaMaterialize/issues"
+  },
+  "homepage": "https://github.com/MariaAdrover/pruebaMaterialize#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
